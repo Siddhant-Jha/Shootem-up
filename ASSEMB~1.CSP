@@ -95,6 +95,35 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/final project/First Person Shooter/_Active/final project FPS/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\BouncePad.cs" />
+    <Compile Include="Assets\Scripts\BulletController.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\CheckpointController.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealthController.cs" />
+    <Compile Include="Assets\Scripts\Explosion.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\LevelExit.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseScreen.cs" />
+    <Compile Include="Assets\Scripts\Pickups\AmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\Pickups\HealthPickup.cs" />
+    <Compile Include="Assets\Scripts\Pickups\WeaponPickup.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealthController.cs" />
+    <Compile Include="Assets\Scripts\TargetMovement.cs" />
+    <Compile Include="Assets\Scripts\Turret.cs" />
+    <Compile Include="Assets\Scripts\UIController.cs" />
+    <Compile Include="Assets\Scripts\VictoryScreen.cs" />
+    <Compile Include="Assets\final project FPS Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
+    <None Include="Assets\final project FPS Assets\model credits.txt" />
+    <None Include="Assets\final project FPS Assets\Audio\Music\INFO.txt" />
+    <None Include="Assets\final project FPS Assets\Starfield Skybox\source.txt" />
+    <None Include="Assets\final project FPS Assets\Models\Environment\Kenney Scifi Pack\Base Models - Kenney Space Kit\License.txt" />
+    <Reference Include="Unity.Timeline.Editor">
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/final project/First Person Shooter/_Active/final project FPS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
