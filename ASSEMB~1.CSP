@@ -35,6 +35,10 @@
     <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
+      outline = bands[0].point(lambda x: 255 if x<100 else 0)
+# outline.save("outline1.jpg")
+#edges = imgR.filter(ImageFilter.FIND_EDGES)
+edges = imgR.filter(ImageFilter.FIND_EDGES)
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
